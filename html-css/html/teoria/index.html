@@ -135,5 +135,15 @@
         <input type="submit">
         <input type="reset">
     </form>
+    <h2>EJERCICIO DE FORMULARIO</h2>
+    <form action="https://formsubmit.co/alejodv562@gmail.com" method="post">
+        <input type="text" name="nombre" placeholder="escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="el nombre solo aceptea letras y espacios en blanco" required>
+        <br>
+        <input type="email" name="correo" placeholder="escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="formato de correo invalido" required>
+        <br>
+        <textarea name="comentario"  cols="30" rows="10" required></textarea>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
